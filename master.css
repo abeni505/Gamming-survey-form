@@ -1,0 +1,78 @@
+
+body{
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: white;
+  background-image:url(bc.jpg);
+  background-size: 1600px 900px;
+  background-size: cover;
+}
+
+label{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#title{
+  text-align: center;
+  font-size: 60px;
+
+}
+#description{
+  text-align: center;
+  font-size: 30px;
+}
+form{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: left;
+  width: 600px;
+  padding: 30px;
+}
+textarea{
+  width:50%;
+}
+botton{
+  border: none;
+}
+#name {
+  width: 560px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#email {
+  width: 560px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#number {
+  width: 560px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#dropdown {
+  width: 580px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#comment{
+  width: 570px;
+  height: 90px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-top: 2%;
+}
+#submit{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 4%;
+  color: white;
+  background-color: green;
+
+}

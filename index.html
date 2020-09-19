@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title>Gamming survey form</title>
+  </head>
+  <body>
+    <div id="body">
+    <h1 id="title">Gamming Survey</h1>
+    <p id="description">Welcome,please take a few minutes to fill this form</p>
+    <form id="survey-form" action="index.html" method="post">
+      <label id="name-label">Name :</label>
+      <input type="text" name="name" id="name" required placeholder="Eg.Abenezer Mulugeta"><br>
+      <label id="email-label">Email :</label>
+      <input type="email" name="email" id="email" required placeholder="Eg.name@gmail.com"><br>
+      <label id="number-label">How many hours do you spend playing games:</label>
+      <input type="number" name="number" id="number" required min="1" max="24" placeholder="1-24"><br>
+      <label for="Gender-label">Gender:</label>
+      <select id="dropdown" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female" >Female</option>
+        <option value="other">other</option>
+      </select>
+      <br>
+      <br>
+      <label for="Age-label">Age:</label><br>
+      <input type="radio" name="age" value="1"><15</input><br>
+      <input type="radio" name="age" value="2">15-20</input><br>
+      <input type="radio" name="age" value="3">20-25</input><br>
+      <input type="radio" name="age" value="4">25+</input><br>
+      <br>
+      <label for="country-label">Where are you from:</label><br>
+      <input type="radio" name="country" value="1">Africa</input><br>
+      <input type="radio" name="country" value="2">America</input><br>
+      <input type="radio" name="country" value="4">Asia</input><br>
+      <input type="radio" name="country" value="5">Australia</input><br>
+      <input type="radio" name="country" value="3">Europe</input><br>
+      <br>
+      <label for="type-label">What type of games do you like:</label><br>
+      <input type="checkbox" name="type" value="2">Action <br>
+      <input type="checkbox" name="type" value="1">Adventure<br>
+      <input type="checkbox" name="type" value="3">Arcade <br>
+      <input type="checkbox" name="type" value="7">Competetive <br>
+      <input type="checkbox" name="type" value="2">FPS<br>
+      <input type="checkbox" name="type" value="4">Logic <br>
+      <input type="checkbox" name="type" value="2">Online <br>
+      <input type="checkbox" name="type" value="2">Simulator <br>
+      <input type="checkbox" name="type" value="5">Sports<br>
+      <input type="checkbox" name="type" value="6">Strategy <br>
+      <input type="checkbox" name="type" value="6">Other<br>
+
+      <br>
+      <label for="equipment-label">Which do you prefer to play games on:</label><br>
+      <input type="radio" name="equipment" value="2">Desktop/Laptop</input><br>
+      <input type="radio" name="equipment" value="1">Mobile Phones</input><br>
+      <input type="radio" name="equipment" value="3">Playstation</input><br>
+      <input type="radio" name="equipment" value="4">Xbox</input><br>
+      <input type="radio" name="equipment" value="4">Other</input><br>
+      <br>
+
+      <br>
+      <label for="type-label">What is the reason for you to play games:</label><br>
+      <input type="checkbox" name="type" value="2">To pass time while waiting<br>
+      <input type="checkbox" name="type" value="1">To interact with others<br>
+      <input type="checkbox" name="type" value="3">To compete with others<br>
+      <input type="checkbox" name="type" value="7">To get rewards on the game  <br>
+      <input type="checkbox" name="type" value="2">To make money <br>
+      <input type="checkbox" name="type" value="4">To stream online <br>
+      <input type="checkbox" name="type" value="2">To explore new things<br>
+      <input type="checkbox" name="type" value="2">I don't really know it <br>
+      <input type="checkbox" name="type" value="2">Other <br>
+      <br>
+      <label for="findus-label">How did you find us :</label><br>
+      <input type="radio" name="findus" value="3">Facebook</input><br>
+      <input type="radio" name="findus" value="2">Github</input><br>
+      <input type="radio" name="findus" value="1">Linkedin</input><br>
+      <input type="radio" name="findus" value="4">Official website</input><br>
+      <input type="radio" name="findus" value="4">Other</input><br>
+      <br>
+
+
+      <textarea name="comment" rows="2" cols="80" placeholder="Please tell us one game that really fits you and describe the type and other qualification it has.Thanks for giving your time" id="comment"></textarea>  <br>
+      <input type="submit" name="submit" id="submit">
+
+    </form>
+  </div>
+  </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+</html>
